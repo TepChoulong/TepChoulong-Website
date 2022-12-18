@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90.8vh;
+    background-color: rgb(39, 38, 37);
+}
+
+.introducing {  
+    position: relative;
+    left: 1.5em;
+    font-size: 3rem;
+    font-family: 'Suez One', serif;
+}
+.introducing h2{  
+    font-size: 3.5rem;
+    font: 500;
+    color: white;
+}
+.introducing h4{  
+    font-size: 2rem;
+    font: 500;
+    color: white;
+}
+
+.download-info {
+    padding: 15px 3em 15px 3em;
+    border: 3px solid rgb(26, 25, 24);
+    border-radius: 15px;
+    font-size: medium;
+    font-family: 'Suez One', serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+#pic-of-me {
+    width: 480px;
+    height: 100%;
+    position: relative;
+    right: 4em;
+    transition: 1s ease-in-out 0s;
+    z-index: 1;
+}
