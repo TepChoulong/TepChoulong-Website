@@ -1,0 +1,36 @@
+body {
+    /*Set the color for the background*/
+}
+.Calculator {
+    width: fit-content;
+    margin: 10% auto 0;
+    background-color: rgb(44, 48, 48); /*Choose the good color*/
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 gray;
+}
+.container {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    gap: 5px;
+}
+#outputscreen {
+    width: calc(60px * 4);
+    padding: 8px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    text-align: right;
+    font-size: larger;
+}
+.num {
+    height: 60px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: medium;
+    color: black;
+    font-weight: 500;
+}
